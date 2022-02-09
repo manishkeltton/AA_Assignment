@@ -24,3 +24,20 @@ function IsAnagram(str1:string, str2:string):boolean{
 }
 
 console.log(IsAnagram(str1, str2));
+
+
+/* @Test case
+*
+*1. str1=""
+    str2=""
+
+    true
+ 2. str1="acr"
+    str2="car"
+
+    true
+ 3. str1="sigma"
+    str2="sgiima"
+    
+    false
+*/
